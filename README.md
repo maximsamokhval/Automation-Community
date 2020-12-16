@@ -14,4 +14,7 @@
 
 - [Шрифт для 1С]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
 
-## 
+## .Net и 1С
+
+- [YellowYard_NET](https://github.com/YPermitin/YellowYard.NET)
+
