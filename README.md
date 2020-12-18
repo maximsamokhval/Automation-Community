@@ -22,6 +22,9 @@
 
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 
-## Test
+## FAQ
 
-- Hello, world!
+[Hello, world! на разных языках программирования]: https://vscode.ru/articles/hello-world-na-raznyh-yazykah-programmirovaniya.html
+
+
+
