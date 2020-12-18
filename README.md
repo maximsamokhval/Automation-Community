@@ -22,3 +22,6 @@
 
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 
+## Test
+
+- Hello, world!
