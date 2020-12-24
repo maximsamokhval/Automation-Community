@@ -1,0 +1,31 @@
+{
+	"$schema": "https://1c-syntax.github.io/bsl-language-server/configuration/schema.json",
+	"language": "ru",
+	"codeLens": {
+		"showCognitiveComplexity": true,
+		"showCyclomaticComplexity": true
+	},
+	"diagnostics": {
+		"computeTrigger": "onSave",
+		"skipSupport": "never",
+		"mode": "all",
+		"parameters": {
+			"FunctionNameStartsWithGet": true,
+			"FunctionOutParameter": true,
+			"TernaryOperatorUsage": true,
+			"TooManyReturns": true,
+			"LineLength": {
+				"maxLineLength": 150
+			},
+			"MethodSize": {
+				"maxMethodSize": 200
+			},
+			"Typo": {
+				"minWordLength": 3,
+				"userWordsToIgnore": "Увага"
+			}
+		}
+	},
+	"traceLog": null,
+	"configurationRoot": "src"
+}
