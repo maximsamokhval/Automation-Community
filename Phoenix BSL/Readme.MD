@@ -1,10 +1,8 @@
-Примечания оставлю к каждой строчке конфигурационного файла:
-`{
-"$schema": "https://1c-syntax.github.io/bsl-language-server/configuration/schema.json", // Путь к схеме конфигурационного файла, на проверки не влияет
+- [ ] Примечания оставлю к каждой строчке конфигурационного файла:
+    `{
+    "$schema": "https://1c-syntax.github.io/bsl-language-server/configuration/schema.json", // Путь к схеме конфигурационного файла, на проверки не влияет
 
-
-
-```json
+```
     "language": "ru", // Язык отображения подсказок
 
 "codeLens": {
@@ -71,9 +69,6 @@
 
 
 
-Полное описание параметров настроек: [https://1c-syntax.github.io/bsl-language-server/features/ConfigurationFile/#_1](https://github.com/maximsamokhval/automation_community/issues/url)
-Подробное описание диагностик и их параметров: [https://1c-syntax.github.io/bsl-language-server/diagnostics/](https://github.com/maximsamokhval/automation_community/issues/url)
-Схема конфигурационного файла: [https://1c-syntax.github.io/bsl-language-server/configuration/schema.json](https://github.com/maximsamokhval/automation_community/issues/url)
-
-
-
+- [ ] Полное описание параметров настроек: [https://1c-syntax.github.io/bsl-language-server/features/ConfigurationFile/#_1](https://github.com/maximsamokhval/automation_community/issues/url)
+- [ ] Подробное описание диагностик и их параметров: [https://1c-syntax.github.io/bsl-language-server/diagnostics/](https://github.com/maximsamokhval/automation_community/issues/url)
+- [ ] Схема конфигурационного файла: [https://1c-syntax.github.io/bsl-language-server/configuration/schema.json](https://github.com/maximsamokhval/automation_community/issues/url)
