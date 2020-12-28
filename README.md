@@ -1,12 +1,12 @@
-# automation_community
+# Репозиторий telegram канала (Сообщество автоматизаторов)
 
 ## Библиотеки и утилиты для работы с управляемыми формами
 
 * [Консоль запросов 9000](https://github.com/hal9000cc/RequestConsole9000)
 
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
-
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
+* [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator)
 
     
 
