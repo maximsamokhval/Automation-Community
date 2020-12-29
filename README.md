@@ -1,4 +1,6 @@
 # Репозиторий telegram канала (Сообщество автоматизаторов)
+Обсудить можно в чате [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)](https://t.me/automation_community)
+
 
 ## Библиотеки и утилиты для работы с управляемыми формами
 
