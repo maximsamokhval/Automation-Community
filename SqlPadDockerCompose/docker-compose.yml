@@ -1,0 +1,13 @@
+version: '3.5'
+services: 
+  sqlpad:
+    container_name: my_sqlpad
+    image: "sqlpad/sqlpad"
+    restart: always
+    ports: 
+      - 3000:3000
+    environment: 
+      - SQLPAD_ADMIN=maxim.samokhval@gmail.com
+      - SQLPAD_ADMIN_PASSWORD=secret
+    volumes: 
+      - ./sqlpad_storage:/var/lib/sqlpad
