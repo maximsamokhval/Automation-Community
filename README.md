@@ -17,6 +17,7 @@
 ## Шрифты
 
 - [Шрифт для 1С]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
+- [Шрифт Jet Brains]( https://dtinth.github.io/comic-mono-font/)
 
 ## .Net и 1С
 
