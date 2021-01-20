@@ -9,7 +9,7 @@
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
 * [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator)
-* [РRegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
+* [RegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
 * [HTTPConnector]( https://github.com/vbondarevsky/Connector)
 * [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
     
