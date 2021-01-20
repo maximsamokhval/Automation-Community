@@ -11,6 +11,7 @@
 * [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator)
 * [РRegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
 * [HTTPConnector]( https://github.com/vbondarevsky/Connector)
+* [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
     
 
 ## Шрифты
