@@ -25,6 +25,8 @@
 ## SQL
 
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
+- [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
+
 
 ## FAQ
 
