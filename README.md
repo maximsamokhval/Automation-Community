@@ -44,6 +44,6 @@
 ## FAQ
 
 - [Hello, world! на разных языках программирования](https://vscode.ru/articles/hello-world-na-raznyh-yazykah-programmirovaniya.html)
-
+- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 
 
