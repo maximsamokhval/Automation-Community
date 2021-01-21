@@ -33,6 +33,8 @@
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
 
+## Статьи (оптимизация) 
+- [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
 ## FAQ
 
