@@ -16,10 +16,15 @@
 ## Демо
 * [Управляемое приложение (Демо)](https://its.1c.ru/db/metod8dev/content/5028/hdoc)
 
-## Шрифты
+## Дизайн
+
+### Шрифты
 
 - [Шрифт для 1С]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
 - [Шрифт Jet Brains]( https://dtinth.github.io/comic-mono-font/)
+
+### Иконки
+- [Tabler Icons]( https://github.com/tabler/tabler-icons )
 
 ## Интеграции 
  - [Внешняя компонента Telegram](https://github.com/Infactum/telegram-native)
