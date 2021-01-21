@@ -9,13 +9,25 @@
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
 * [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator)
-* [РRegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
+* [RegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
 * [HTTPConnector]( https://github.com/vbondarevsky/Connector)
-    
+* [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
 
-## Шрифты
+## Демо
+* [Управляемое приложение (Демо)](https://its.1c.ru/db/metod8dev/content/5028/hdoc)
+
+## Дизайн
+
+### Шрифты
 
 - [Шрифт для 1С]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
+- [Шрифт Jet Brains]( https://dtinth.github.io/comic-mono-font/)
+
+### Иконки
+- ![icon](/assets/images/link.png) [Tabler Icons]( https://github.com/tabler/tabler-icons )
+
+## Интеграции 
+ - [Внешняя компонента Telegram](https://github.com/Infactum/telegram-native)
 
 ## .Net и 1С
 
@@ -24,10 +36,14 @@
 ## SQL
 
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
+- [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
+
+## Статьи (оптимизация) 
+- [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
 ## FAQ
 
 - [Hello, world! на разных языках программирования](https://vscode.ru/articles/hello-world-na-raznyh-yazykah-programmirovaniya.html)
-
+- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 
 
