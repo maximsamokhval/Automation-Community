@@ -24,7 +24,7 @@
 - [Шрифт Jet Brains]( https://dtinth.github.io/comic-mono-font/)
 
 ### Иконки
-- ![icon](/assets/images/link.png) [Tabler Icons]( https://github.com/tabler/tabler-icons )
+ ![icon](/assets/images/link.svg)[Tabler Icons]( https://github.com/tabler/tabler-icons )
 
 ## Интеграции 
  - [Внешняя компонента Telegram](https://github.com/Infactum/telegram-native)
