@@ -50,5 +50,6 @@
 
 - [Hello, world! на разных языках программирования](https://vscode.ru/articles/hello-world-na-raznyh-yazykah-programmirovaniya.html)
 - [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+- [Стандарты разработки 1С](https://its.1c.ru/db/v8std)
 
 
