@@ -8,8 +8,7 @@
 
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
-* [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator)
-* [RegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
+* [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator )
 * [HTTPConnector]( https://github.com/vbondarevsky/Connector)
 * [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
 
@@ -30,6 +29,7 @@
  - [Внешняя компонента Telegram](https://github.com/Infactum/telegram-native)
  - [Внешняя компонента RabbitMQ Soft Balance]( https://sbpg.atlassian.net/wiki/spaces/1C2RMQ/overview?homepageId=175800496 )
  - [Внешняя компонента PinkRabbitMQ]( https://github.com/BITERP/PinkRabbitMQ#pinkrabbitmq-library )
+ - [Внешняя компонента RegEx1CAddin]( https://github.com/alexkmbk/RegEx1CAddin)
 
 ## .Net и 1С
 
