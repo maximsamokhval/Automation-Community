@@ -41,6 +41,9 @@
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
+## Статьи (интеграции)
+![icon](/assets/images/link.svg)[Использование AMQP на примере RabbitMQ]( https://kt.team/hr/blog/rabbitmq#rabbit )
+
 ## FAQ
 
 - [Hello, world! на разных языках программирования](https://vscode.ru/articles/hello-world-na-raznyh-yazykah-programmirovaniya.html)
