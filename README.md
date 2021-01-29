@@ -28,6 +28,8 @@
 
 ## Интеграции 
  - [Внешняя компонента Telegram](https://github.com/Infactum/telegram-native)
+ - [Внешняя компонента RabbitMQ Soft Balance]( https://sbpg.atlassian.net/wiki/spaces/1C2RMQ/overview?homepageId=175800496 )
+ - [Внешняя компонента PinkRabbitMQ]( https://github.com/BITERP/PinkRabbitMQ#pinkrabbitmq-library )
 
 ## .Net и 1С
 
