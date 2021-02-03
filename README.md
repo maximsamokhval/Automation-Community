@@ -43,7 +43,7 @@
 ### SQL links (videos & articles)
 
 - [Что делать, если не хватает штатных индексов 1С (Фрагмент курса 1С Эксперт)](https://youtu.be/DynhFzN9irc)
-- [Execution Plan Basics](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/)
+- [Execution Plan Basics](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/) - What is an execution plan?
 
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
