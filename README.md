@@ -11,6 +11,7 @@
 * [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator )
 * [HTTPConnector]( https://github.com/vbondarevsky/Connector)
 * [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
+* [HTTP сервисы по OpenAPI спецификациям](http://tf21.ru/public/1257654/)
 
 ## Демо
 * [Управляемое приложение (Демо)](https://its.1c.ru/db/metod8dev/content/5028/hdoc)
