@@ -20,8 +20,8 @@
 
 ### Шрифты
 
-- [Шрифт для 1С]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
-- [Шрифт Jet Brains]( https://dtinth.github.io/comic-mono-font/)
+- [Шрифт для 1С от devtool1c]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
+- [Шрифт Jet Brains Mono]( https://www.jetbrains.com/lp/mono/)
 
 ### Иконки
  ![icon](/assets/images/link.svg)[Tabler Icons]( https://github.com/tabler/tabler-icons )
