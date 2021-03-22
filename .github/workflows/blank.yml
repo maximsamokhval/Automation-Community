@@ -12,4 +12,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: ${{ github.ACTOR }} выполнил ${{ github.event_name }} в ${{ github.REPOSITORY }} 
+        #message: ${{ github.ACTOR }} выполнил ${{ github.event_name }} в ${{ github.REPOSITORY }} 
