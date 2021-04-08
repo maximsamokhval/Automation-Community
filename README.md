@@ -32,6 +32,11 @@
  - [Внешняя компонента PinkRabbitMQ]( https://github.com/BITERP/PinkRabbitMQ#pinkrabbitmq-library )
  - [Внешняя компонента RegEx]( https://github.com/alexkmbk/RegEx1CAddin)
 
+## Тестирование
+ 
+ -[add-tests-for-1C-ERP](https://github.com/Dach-Coin/add-tests-for-1C-ERP) - Примеры сценарных и дымовых тестов на фреймворках V-ADD и xDD для 1C:ERP
+ 
+ 
 ## .Net и 1С
 
 - [YellowYard_NET](https://github.com/YPermitin/YellowYard.NET)
