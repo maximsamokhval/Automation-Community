@@ -18,6 +18,23 @@
 
 ## Дизайн
 
+### Настройка конфигуратора
+
+- [Приятная глазу цветовая схема 1С 8.х]( https://infostart.ru/1c/articles/122391/ )
+
+Brightness contrast colorschemes:
+Ключевые слова: D24C15
+Константы типа "Число": B68900
+Константы типа "Строка": 4CA49C
+Константы типа "Дата": 859900
+Идентификаторы: 258BD3
+Операторы: D42F33
+Комментарии: 93A1A1
+Препроцессор: D53584
+Прочее: 899A33  
+Фон: FFFBF0  
+
+
 ### Шрифты
 
 - [Шрифт для 1С от devtool1c]( http://devtool1c.ucoz.ru/load/prochie/shrift_hack_1c/2-1-0-23 )
@@ -34,7 +51,7 @@
 
 ## Тестирование
  
- -[add-tests-for-1C-ERP](https://github.com/Dach-Coin/add-tests-for-1C-ERP) - Примеры сценарных и дымовых тестов на фреймворках V-ADD и xDD для 1C:ERP
+ - [add-tests-for-1C-ERP](https://github.com/Dach-Coin/add-tests-for-1C-ERP) - Примеры сценарных и дымовых тестов на фреймворках V-ADD и xDD для 1C:ERP
  
  
 ## .Net и 1С
