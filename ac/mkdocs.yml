@@ -1,0 +1,7 @@
+site_name: Украинское сообщество автоматизаторов
+nav:
+    - Home: index.md
+    - Статьи: pages.md
+    - Про тестирование: about_testing.md
+    - About: about.md
+theme: windmill
