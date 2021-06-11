@@ -1,5 +1,5 @@
 # Репозиторий telegram канала (Сообщество автоматизаторов)
-[![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg?style=plastic)](https://t.me/automation_community)
+[![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg?style=plastic)](https://t.me/joinchat/Rz30Yy9vXMYzNDkyy)
 ![forks](https://img.shields.io/github/forks/maximsamokhval/Automation-Community?style=plastic)
 ![stars](https://img.shields.io/github/stars/maximsamokhval/Automation-Community?style=plastic)
 ![last commit](https://img.shields.io/github/last-commit/maximsamokhval/Automation-Community?style=plastic)
