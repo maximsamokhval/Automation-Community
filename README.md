@@ -1,7 +1,8 @@
 # Репозиторий telegram канала (Сообщество автоматизаторов)
-Обсудить можно в чате [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)](https://t.me/automation_community)
-
-
+[![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg?style=plastic)](https://t.me/joinchat/Rz30Yy9vXMYzNDkyy)
+![forks](https://img.shields.io/github/forks/maximsamokhval/Automation-Community?style=plastic)
+![stars](https://img.shields.io/github/stars/maximsamokhval/Automation-Community?style=plastic)
+![last commit](https://img.shields.io/github/last-commit/maximsamokhval/Automation-Community?style=plastic)
 ## Библиотеки и утилиты для работы с управляемыми формами
 
 * [Консоль запросов 9000](https://github.com/hal9000cc/RequestConsole9000)
