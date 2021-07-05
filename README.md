@@ -6,6 +6,7 @@
 ## Библиотеки и утилиты для работы с управляемыми формами
 
 * [Консоль запросов 9000](https://github.com/hal9000cc/RequestConsole9000)
+* [Консоль заданий УФ](https://github.com/kuzyara/JobsConsole2019.epf)
 * [Phoenix BSL для 1С](https://github.com/otymko/phoenixbsl/releases) 
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
