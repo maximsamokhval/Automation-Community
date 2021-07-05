@@ -10,7 +10,8 @@
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
 * [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator )
-* [HTTPConnector]( https://github.com/vbondarevsky/Connector)
+* [HTTP Connector]( https://github.com/vbondarevsky/Connector)
+* [HTTP Status Codes](https://github.com/astrizhachuk/HTTPStatusCodes)
 * [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
 * [HTTP сервисы по OpenAPI спецификациям](http://tf21.ru/public/1257654/)
 
