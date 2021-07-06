@@ -1,0 +1,42 @@
+
+<log history="2" location="C:\Users\1cstart\AppData\Local\Temp\v8_F2B9_4169.1c_logs">
+<event>
+  <eq property="name" value="db2"/>
+  <eq property="p:processName" value="DATABASENAME"/>
+  <eq property="usr" value=""/>
+  <eq property="sessionid" value="18282"/>
+</event>
+<event>
+  <eq property="name" value="dbmssql"/>
+  <eq property="p:processName" value="DATABASENAME"/>
+  <eq property="usr" value=""/>
+  <eq property="sessionid" value="18282"/>
+</event>
+<event>
+  <eq property="name" value="dbpostgrs"/>
+  <eq property="p:processName" value="DATABASENAME"/>
+  <eq property="usr" value=""/>
+  <eq property="sessionid" value="18282"/>
+</event>
+<event>
+  <eq property="name" value="dboracle"/>
+  <eq property="p:processName" value="DATABASENAME"/>
+  <eq property="usr" value=""/>
+  <eq property="sessionid" value="18282"/>
+</event>
+<event>
+  <eq property="name" value="SDBL"/>
+  <eq property="p:processName" value="DATABASENAME"/>
+  <eq property="usr" value=""/>
+  <eq property="sessionid" value="18282"/>
+</event>
+<event>
+  <eq property="name" value="DBV8DBEng"/>
+  <eq property="p:processName" value="DATABASENAME"/>
+  <eq property="usr" value=""/>
+  <eq property="sessionid" value="18282"/>
+</event>
+<property name="all"/>
+  <property name="sql"/>
+  <property name="plansqltext"/>
+</log>

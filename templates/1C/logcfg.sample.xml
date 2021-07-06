@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+ <dump create="false"/>
+ <log location="C:\Program Files\1cv8\Log1C" history="96">
+  <event>
+   <eq property="name" value="qerr"/>
+  </event>
+  <event>
+   <eq property="name" value="tdeadlock"/>
+  </event>
+  <event>
+   <eq property="name" value="ttimeout"/>
+  </event>
+  <event>
+   <eq property="name" value="tlock"/>
+   <ge property="duration" value="50000"/>
+  </event>
+
+  <event>
+   <eq property="name" value="DBMSSQL"/>
+   <ge property="duration" value="200000"/>
+  </event>
+
+  <event>
+   <eq property="name" value="SDBL"/>
+   <eq property="Func" value="CommitTransaction"/>
+   <ge property="duration" value="400000"/>
+  </event>
+
+  <event>
+   <eq property="name" value="CALL"/>
+   <eq property="process" value="rmngr"/>
+   <ge property="duration" value="100000"/>
+  </event>
+
+  <event>
+   <eq property="name" value="CALL"/>
+   <ge property="duration" value="400000"/>
+  </event>
+
+  <event>
+   <eq property="name" value="Context"/>
+  </event>
+
+  <event>
+    <eq property="name" value="EXCP"/>
+    <like property="Exception" value="DataBaseException"/>                            
+  </event>
+
+  <property name="all"/>
+
+ </log>
