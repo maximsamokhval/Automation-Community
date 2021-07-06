@@ -6,11 +6,13 @@
 ## Библиотеки и утилиты для работы с управляемыми формами
 
 * [Консоль запросов 9000](https://github.com/hal9000cc/RequestConsole9000)
+* [Консоль заданий УФ](https://github.com/kuzyara/JobsConsole2019.epf)
 * [Phoenix BSL для 1С](https://github.com/otymko/phoenixbsl/releases) 
 * [Консоль кода для 1С 8.3]( https://github.com/salexdv/bsl_console/releases )
 * [Редактор  форм]( https://github.com/huxuxuya/1cFormEditor)
 * [Обработка генерации кода для программной доработки форм](https://github.com/huxuxuya/FormCodeGenerator )
-* [HTTPConnector]( https://github.com/vbondarevsky/Connector)
+* [HTTP Connector]( https://github.com/vbondarevsky/Connector)
+* [HTTP Status Codes](https://github.com/astrizhachuk/HTTPStatusCodes)
 * [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
 * [HTTP сервисы по OpenAPI спецификациям](http://tf21.ru/public/1257654/)
 
@@ -68,7 +70,7 @@
 - [YellowYard_NET](https://github.com/YPermitin/YellowYard.NET)
 
 ## SQL
-
+- [sql-server-maintenance-solution](https://github.com/olahallengren/sql-server-maintenance-solution)
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
 
@@ -80,8 +82,14 @@
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
+
 ## Статьи (интеграции)
 ![icon](/assets/images/link.svg)[Использование AMQP на примере RabbitMQ]( https://kt.team/hr/blog/rabbitmq#rabbit )
+
+## Статьи (настройки)
+### Sonar Qube
+- [ ] [SonarQube Memory Tuning Guidelines](https://community.sonarsource.com/t/sonarqube-memory-tuning-guidelines/31361) 
+- [ ] [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/)  
 
 ## Паттерны 
 - [DesignPatterns](https://github.com/maximsamokhval/DesignPatterns) 
