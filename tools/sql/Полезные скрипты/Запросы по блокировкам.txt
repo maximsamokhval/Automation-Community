@@ -1,0 +1,73 @@
+SELECT resource_type, resource_associated_entity_id, 
+    request_status, request_mode,request_session_id,
+    resource_description 
+    FROM sys.dm_tran_locks
+    WHERE 
+	--resource_associated_entity_id = 1337250202 
+	--and resource_description = '(f7b33e8875fb)'
+	request_status = 'WAIT'
+	--resource_type = 'OBJECT' AND request_mode = 'X' AND resource_associated_entity_id > 0
+	--resource_type = 'METADATA' AND request_mode = 'Sch-M'
+	--resource_type = 'PAGE' AND 
+	--request_mode = 'X' AND request_session_id = 121
+	--resource_associated_entity_id = 72059322149568512 
+	--AND resource_description = 'object_id = 2023678257, index_id or stats_id = 5'
+
+--Если resource_type = 'METADATA', request_mode = 'Sch-X' и resource_description = 'object_id > 0' то возможно следует отключить автоматическое обновление статистик
+--object_id < 0 - это локальная врем. таблица!
+
+--Если блокировка типа KEY
+--SELECT object_name(object_id), * FROM sys.partitions WHERE hobt_id=72059321291898880
+--Если кластерный индекс (index_id=1) тогда ищем конфликтный ресурс:
+--select * from _AccumRg34965 (nolock) where %%lockres%% = '(4a323ddc0a14)'
+--Если индекс некластерный (index_id > 1) тогда определяем имя индекса:
+--select name from sys.indexes where object_id=484300885 and index_id=3
+--И ищем конфликтный ресурс в этом индексе:
+--select * from _AccumRg34965 with (nolock index (_AccumRg68_ByDims1922_RTRN)) where %%lockres%% = '(4a323ddc0a14)'
+--По ссылка определяем значения измерений:
+--select * from _Document841 where _idrref = 0xAB480050569CB4C911E89AD30963793D 
+
+--Если блокировка типа OBJECT
+--SELECT object_name(1337250202) --OBJECT: 5:762524033:34 OBJECT: 5:1337250202:11 
+--ALTER TABLE _AccRgAT31512    SET (LOCK_ESCALATION = DISABLE)
+
+--Если блокировка типа PAGE
+--DBCC TRACEON (3604);
+--DBCC PAGE (5, 1, 66036876, 0); --PAGE: 5:1:66036876 
+--DBCC TRACEOFF (3604);
+--select object_name(p.object_id),* from sys.partitions as p left join sys.indexes as i on p.object_id = i.object_id and p.index_id = i.index_id where p.hobt_id = 72059271989952512
+--ALTER INDEX [_AccRgED756_ByExtDim_RT] ON [dbo]._AccRgED756 SET ( ALLOW_PAGE_LOCKS = OFF )
+--ALTER INDEX ALL ON [dbo]._CRg1638 SET ( ALLOW_PAGE_LOCKS = OFF )
+
+--Если не применяется некластерный индекс
+--SELECT COUNT(*) FROM _AccumRgT39886 (nolock)
+--SELECT COUNT(*) FROM _Document58767_VT58864 (nolock)
+--UPDATE STATISTICS _Document58767 WITH ROWCOUNT=100000, PAGECOUNT=100000;
+--UPDATE STATISTICS _Document58767 with fullscan --_Document58767_VT58864
+--DBCC FREEPROCCACHE
+;
+--DBCC UPDATEUSAGE ('AstartaHoldingUAH_IFRS', '_Document58767_VT58864', '_Documen58767_VT58864_IntKeyInd') WITH COUNT_ROWS;
+
+
+
+
+
+	SELECT  [resource_type] ,
+	        DB_NAME([resource_database_id]) AS [Database Name]  ,
+	        CASE  WHEN DTL.resource_type  IN  ( 'DATABASE', 'FILE', 'METADATA' )
+	             THEN DTL.resource_type
+	             WHEN DTL.resource_type =  'OBJECT'
+	             THEN  OBJECT_NAME(DTL.resource_associated_entity_id,
+	                              DTL.[resource_database_id])
+	             WHEN DTL.resource_type IN  ( 'KEY', 'PAGE', 'RID' )
+	             THEN  (  SELECT  OBJECT_NAME([object_id])
+	                    FROM    sys.partitions
+	                    WHERE   sys.partitions.hobt_id = 
+                                            DTL.resource_associated_entity_id
+	                  )
+	             ELSE  'Unidentified'
+	        END  AS requested_object_name ,
+	        [request_mode] ,
+	        [resource_description]
+	FROM    sys.dm_tran_locks DTL
+	WHERE   DTL.[resource_type] <>  'DATABASE' ;
