@@ -1,14 +1,19 @@
-@Echo off
+@echo off
 @chcp 65001
+
 setlocal enabledelayedexpansion
 
 SET V8VERSION=8.3.18.1334
+SET IBCONNECTION="/S1c-test/TEST"
+
 SET RACPATH="C:\Program Files\1cv8\%V8VERSION%\bin\rac.exe"
 SET RASSERVER=""
 SET RASPORT=1545
+
 SET DBNAME=""
 SET DBPWD=""
 SET DBUSER=""
+
 SET LOCKMESSAGE="Уважаемые пользователи. В данный момент проводится плановое обновление базы данных. Приносим свои извинения за оказанные неудобства."
 SET UCCODE=UpdateDB
 rem Значение паузы в секундах
@@ -17,7 +22,8 @@ SET LOCKSTARTAT=300
 SET STORAGEPATH=tcp://127.0.0.1/Dev
 SET STORAGEUSER=""
 SET STORAGEPWD="20tk20"
-SET IBCONNECTION="/S1c-test/TEST"
+
+
 
 rem Остановка регламентных заданий
 @call vrunner scheduledjobs lock --ras %RASSERVER%:%RASPORT% --rac %RACPATH% --db %DBNAME% --db-user %DBUSER% --db-pwd %DBPWD%
