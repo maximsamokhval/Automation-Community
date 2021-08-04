@@ -73,6 +73,7 @@
 - [sql-server-maintenance-solution](https://github.com/olahallengren/sql-server-maintenance-solution)
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
+- [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
 
 ### SQL links (videos & articles)
 
