@@ -94,7 +94,10 @@
 ## Статьи (настройки)
 ### Sonar Qube
 - [ ] [SonarQube Memory Tuning Guidelines](https://community.sonarsource.com/t/sonarqube-memory-tuning-guidelines/31361) 
-- [ ] [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/)  
+- [ ] [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/) 
+ 
+## Статьи (общее)
+- [ ] [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/) 
 
 ## Паттерны 
 - [DesignPatterns](https://github.com/maximsamokhval/DesignPatterns) 
