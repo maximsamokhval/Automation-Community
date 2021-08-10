@@ -24,6 +24,7 @@
 
 * [TaskManagerFor1C](https://github.com/wizi4d/TaskManagerFor1C) - Библиотека TaskManagerFor1C предназначена для создания асинхронных и параллельных алгоритмов с гарантированным выполнением в среде 1С Предприятия на базе фоновых заданий.
 * [Универсальные инструменты 1С для управляемых форм](https://github.com/cpr1c/tools_ui_1c) - Универсальные инструменты 1С для управляемых форм
+* [LogBookReaderWPF](https://github.com/djserega/LogBookReaderWPF) - Приложение "читает" файл журнала регистрации 1С формата SQLite.
 
 ## Дизайн
 
