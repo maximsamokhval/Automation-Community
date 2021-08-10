@@ -26,6 +26,7 @@
 * [Универсальные инструменты 1С для управляемых форм](https://github.com/cpr1c/tools_ui_1c) - Универсальные инструменты 1С для управляемых форм
 * [LogBookReaderWPF](https://github.com/djserega/LogBookReaderWPF) - Приложение "читает" файл журнала регистрации 1С формата SQLite.
 * [commitlint](https://commitlint.io/) - Commitlint.io поможет проекту обеспечить красивые и аккуратные сообщения о фиксации без необходимости загрузки или установки. Он разработан с учетом вашего рабочего процесса и не требует никаких изменений в вашей системе.
+* [Правила доработки типовых конфигураций 1С для облегчения их дальнейшего обновления](https://tavalik.ru/pravila-razrabotki-chast-1/) - Правила доработки типовых конфигураций 1С для облегчения их дальнейшего обновления 
 
 ## Дизайн
 
@@ -76,6 +77,7 @@
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
 - [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
+- [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 
 ### SQL links (videos & articles)
 
