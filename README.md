@@ -24,6 +24,9 @@
 
 * [TaskManagerFor1C](https://github.com/wizi4d/TaskManagerFor1C) - Библиотека TaskManagerFor1C предназначена для создания асинхронных и параллельных алгоритмов с гарантированным выполнением в среде 1С Предприятия на базе фоновых заданий.
 * [Универсальные инструменты 1С для управляемых форм](https://github.com/cpr1c/tools_ui_1c) - Универсальные инструменты 1С для управляемых форм
+* [LogBookReaderWPF](https://github.com/djserega/LogBookReaderWPF) - Приложение "читает" файл журнала регистрации 1С формата SQLite.
+* [commitlint](https://commitlint.io/) - Commitlint.io поможет проекту обеспечить красивые и аккуратные сообщения о фиксации без необходимости загрузки или установки. Он разработан с учетом вашего рабочего процесса и не требует никаких изменений в вашей системе.
+* [Правила доработки типовых конфигураций 1С для облегчения их дальнейшего обновления](https://tavalik.ru/pravila-razrabotki-chast-1/) - Правила доработки типовых конфигураций 1С для облегчения их дальнейшего обновления 
 
 ## Дизайн
 
@@ -73,6 +76,9 @@
 - [sql-server-maintenance-solution](https://github.com/olahallengren/sql-server-maintenance-solution)
 - [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
+- [sp_whoisactive](https://github.com/amachanic/sp_whoisactive/releases)
+- [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
+- [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 
 ### SQL links (videos & articles)
 
@@ -82,6 +88,9 @@
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
+## Статьи (Доработки типовых на базе БСП)
+- [Добавление отчетов в типовые конфигурации 1С](https://infostart.ru/1c/articles/1016791/)
+- [Подсистема "Варианты отчетов". Используете ли Вы ее правильно?](https://infostart.ru/1c/articles/1056845/)
 
 ## Статьи (интеграции)
 ![icon](/assets/images/link.svg)[Использование AMQP на примере RabbitMQ]( https://kt.team/hr/blog/rabbitmq#rabbit )
@@ -89,7 +98,10 @@
 ## Статьи (настройки)
 ### Sonar Qube
 - [ ] [SonarQube Memory Tuning Guidelines](https://community.sonarsource.com/t/sonarqube-memory-tuning-guidelines/31361) 
-- [ ] [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/)  
+- [ ] [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/) 
+ 
+## Статьи (общее)
+- [ ] [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/) 
 
 ## Паттерны 
 - [DesignPatterns](https://github.com/maximsamokhval/DesignPatterns) 
