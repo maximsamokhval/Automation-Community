@@ -102,6 +102,7 @@
  
 ## Статьи (общее)
 - [ ] [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/) 
+- [ ] [Прокси-сервер для проверки формата комментариев в хранилище конфигураций 1С](https://github.com/EvilBeaver/crserver-filter)
 
 ## Паттерны 
 - [DesignPatterns](https://github.com/maximsamokhval/DesignPatterns) 
