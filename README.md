@@ -74,7 +74,7 @@
 
 ## SQL
 - [sql-server-maintenance-solution](https://github.com/olahallengren/sql-server-maintenance-solution)
-- [SQL Server First Responder Kit](https://github.com/artbear/SQL-Server-First-Responder-Kit)
+- [SQL Server First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
 - [sp_whoisactive](https://github.com/amachanic/sp_whoisactive/releases)
 - [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
