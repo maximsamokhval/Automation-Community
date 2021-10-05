@@ -80,10 +80,14 @@
 - [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
 - [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 
-### SQL links (videos & articles)
+### SQL links (videos & articles). Блокировки 
 
 - [Что делать, если не хватает штатных индексов 1С (Фрагмент курса 1С Эксперт)](https://youtu.be/DynhFzN9irc)
 - [Execution Plan Basics](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/) - What is an execution plan?
+
+
+- [Ошибки блокировок 1С. Как исправить конфликт блокировок в 1С 8.3. Как определить уровень изоляции блокировок 1С-запросов?](https://www.koderline.ru/expert/sovety-ekspertov-raznoe/article-oshibki-blokirovok-1s-kak-ispravit-konflikt-blokirovok-v-1s-8-3-kak-opredelit-uroven-izolyatsii-blok/)
+- [Возможности оптимизации блокировок 1С](http://cascade-group.com.ua/vozmozhnosti-optimizacii-blokirovok-v-1s/)
 
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
