@@ -1,0 +1,1 @@
+dbcc show_statistics('dbo.Orders','IDX_Orders_Store_ID')

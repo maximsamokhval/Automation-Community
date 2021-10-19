@@ -23,3 +23,22 @@ https://its.1c.ru/db/metod8dev/content/5904/hdoc
 Флаг применим к версиям Microsoft SQL Server 2008 и выше. Начиная с версии Microsoft SQL Server 2014 Service Pack 2 и Microsoft SQL Server 2016, поведение является стандартными.
 
 Описание на официальной странице: https://docs.microsoft.com/ru-ru/sql/t-sql/database-console-commands/dbcc-traceon-trace-flags-transact-sql
+
+
+* Настройки SQL сервера: Разное -> Оптимизировать для нерегламентированной рабочей нагрузки (Optimize for Ad hoc Workloads) установить в истину. ( dbcc freeproccache - очистка кеша плана запросов )
+* Просмотр ошибок 
+
+``` sql 
+
+use master
+
+sp_configure 'show advanced options' , 1
+GO
+RECONFIGURE
+GO
+sp_configure 'blocked process threshold' , 5 
+GO
+RECONFIGURE
+GO
+
+```
