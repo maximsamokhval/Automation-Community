@@ -1,3 +1,27 @@
+- [Репозиторий telegram канала (Сообщество автоматизаторов)](#репозиторий-telegram-канала-сообщество-автоматизаторов)
+  - [Библиотеки и утилиты для работы с управляемыми формами](#библиотеки-и-утилиты-для-работы-с-управляемыми-формами)
+  - [Демо](#демо)
+  - [Полезные репозитории](#полезные-репозитории)
+  - [Дизайн](#дизайн)
+    - [Настройка конфигуратора](#настройка-конфигуратора)
+    - [Шрифты](#шрифты)
+    - [Иконки](#иконки)
+  - [Интеграции](#интеграции)
+  - [Тестирование](#тестирование)
+  - [.Net и 1С](#net-и-1с)
+  - [SQL](#sql)
+    - [SQL links (videos & articles). Блокировки](#sql-links-videos--articles-блокировки)
+    - [CXPACKET](#cxpacket)
+    - [Флаги трассировки](#флаги-трассировки)
+  - [Статьи (оптимизация)](#статьи-оптимизация)
+  - [Статьи (Доработки типовых на базе БСП)](#статьи-доработки-типовых-на-базе-бсп)
+  - [Статьи (интеграции)](#статьи-интеграции)
+  - [Статьи (настройки)](#статьи-настройки)
+    - [Sonar Qube](#sonar-qube)
+  - [Статьи (общее)](#статьи-общее)
+  - [Паттерны](#паттерны)
+  - [FAQ](#faq)
+
 # Репозиторий telegram канала (Сообщество автоматизаторов)
 [![Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg?style=plastic)](https://t.me/joinchat/Rz30Yy9vXMYzNDkyy)
 ![forks](https://img.shields.io/github/forks/maximsamokhval/Automation-Community?style=plastic)
@@ -79,19 +103,27 @@
 - [sp_whoisactive](https://github.com/amachanic/sp_whoisactive/releases)
 - [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
 - [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
+- [aboutsqlserver](https://aboutsqlserver.com/presentations/)
+
 
 ### SQL links (videos & articles). Блокировки 
 
 - [Что делать, если не хватает штатных индексов 1С (Фрагмент курса 1С Эксперт)](https://youtu.be/DynhFzN9irc)
 - [Execution Plan Basics](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/) - What is an execution plan?
 
-
 - [Ошибки блокировок 1С. Как исправить конфликт блокировок в 1С 8.3. Как определить уровень изоляции блокировок 1С-запросов?](https://www.koderline.ru/expert/sovety-ekspertov-raznoe/article-oshibki-blokirovok-1s-kak-ispravit-konflikt-blokirovok-v-1s-8-3-kak-opredelit-uroven-izolyatsii-blok/)
+
 - [Возможности оптимизации блокировок 1С](http://cascade-group.com.ua/vozmozhnosti-optimizacii-blokirovok-v-1s/)
+
 - [Как посмотреть, какие данные заблокированы в СУБД MS SQL Server](https://infostart.ru/1c/articles/707333/)
 
+### CXPACKET
+- [CXPACKET в топе по ожиданиям на MSSSQL](http://www.gilev.ru/forum/viewtopic.php?f=18&t=1201&sid=a2f93a47336babab8f21cdf92d9c23fe)
+### Флаги трассировки
+ [Описание флагов трассировки](https://github.com/ktaranov/sqlserver-kit/blob/master/SQL%20Server%20Trace%20Flag.md)
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
+
 
 ## Статьи (Доработки типовых на базе БСП)
 - [Добавление отчетов в типовые конфигурации 1С](https://infostart.ru/1c/articles/1016791/)
