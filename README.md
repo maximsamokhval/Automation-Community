@@ -13,6 +13,7 @@
     - [SQL links (videos & articles). Блокировки](#sql-links-videos--articles-блокировки)
     - [CXPACKET](#cxpacket)
     - [Флаги трассировки](#флаги-трассировки)
+  - [Технологический журнал](#технологический-журнал)
   - [Статьи (оптимизация)](#статьи-оптимизация)
   - [Статьи (Доработки типовых на базе БСП)](#статьи-доработки-типовых-на-базе-бсп)
   - [Статьи (интеграции)](#статьи-интеграции)
@@ -105,7 +106,6 @@
 - [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 - [aboutsqlserver](https://aboutsqlserver.com/presentations/)
 
-
 ### SQL links (videos & articles). Блокировки 
 
 - [Что делать, если не хватает штатных индексов 1С (Фрагмент курса 1С Эксперт)](https://youtu.be/DynhFzN9irc)
@@ -121,6 +121,10 @@
 - [CXPACKET в топе по ожиданиям на MSSSQL](http://www.gilev.ru/forum/viewtopic.php?f=18&t=1201&sid=a2f93a47336babab8f21cdf92d9c23fe)
 ### Флаги трассировки
  [Описание флагов трассировки](https://github.com/ktaranov/sqlserver-kit/blob/master/SQL%20Server%20Trace%20Flag.md)
+
+## Технологический журнал
+
+[Про настройку технологического журнала в 1С](/docs/Технологический%20журнал/readme.md)
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
