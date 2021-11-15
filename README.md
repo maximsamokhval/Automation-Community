@@ -127,6 +127,7 @@
 [Про настройку технологического журнала в 1С](/docs/Технологический%20журнал/readme.md)
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
+- [Расследование ошибки в конфигураторе](https://kostyanetsky.ru/notes/designer-error-investigation/)
 
 
 ## Статьи (Доработки типовых на базе БСП)
@@ -139,19 +140,18 @@
 
 ## Статьи (настройки)
 ### Sonar Qube
-- [ ] [SonarQube Memory Tuning Guidelines](https://community.sonarsource.com/t/sonarqube-memory-tuning-guidelines/31361) 
-- [ ] [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/) 
+  - [SonarQube Memory Tuning Guidelines](https://community.sonarsource.com/t/sonarqube-memory-tuning-guidelines/31361) 
+  - [SonarQube Requirments](https://docs.sonarqube.org/latest/requirements/requirements/) 
  
 ## Статьи (общее)
-- [ ] [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/) 
-- [ ] [Прокси-сервер для проверки формата комментариев в хранилище конфигураций 1С](https://github.com/EvilBeaver/crserver-filter)
+- [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/) 
+- [Прокси-сервер для проверки формата комментариев в хранилище конфигураций 1С](https://github.com/EvilBeaver/crserver-filter)
 
 ## Паттерны 
 - [DesignPatterns](https://github.com/maximsamokhval/DesignPatterns) 
 
 ## FAQ
 
-- [Hello, world! на разных языках программирования](https://vscode.ru/articles/hello-world-na-raznyh-yazykah-programmirovaniya.html)
 - [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 - [Стандарты разработки 1С](https://its.1c.ru/db/v8std)
 
