@@ -10,10 +10,10 @@
   - [Тестирование](#тестирование)
   - [.Net и 1С](#net-и-1с)
   - [SQL](#sql)
-    - [SQL links (videos & articles). Блокировки](#sql-links-videos--articles-блокировки)
-    - [CXPACKET](#cxpacket)
-    - [Флаги трассировки](#флаги-трассировки)
-  - [Технологический журнал](#технологический-журнал)
+      - [SQL links (videos & articles). Блокировки](#sql-links-videos--articles-блокировки)
+      - [CXPACKET](#cxpacket)
+      - [Флаги трассировки](#флаги-трассировки)
+    - [Технологический журнал](#технологический-журнал)
   - [Статьи (оптимизация)](#статьи-оптимизация)
   - [Статьи ( доработки типовых на базе БСП )](#статьи--доработки-типовых-на-базе-бсп-)
   - [Статьи (интеграции)](#статьи-интеграции)
@@ -52,6 +52,7 @@
 * [LogBookReaderWPF](https://github.com/djserega/LogBookReaderWPF) - Приложение "читает" файл журнала регистрации 1С формата SQLite.
 * [commitlint](https://commitlint.io/) - Commitlint.io поможет проекту обеспечить красивые и аккуратные сообщения о фиксации без необходимости загрузки или установки. Он разработан с учетом вашего рабочего процесса и не требует никаких изменений в вашей системе.
 * [Правила доработки типовых конфигураций 1С для облегчения их дальнейшего обновления](https://tavalik.ru/pravila-razrabotki-chast-1/) - Правила доработки типовых конфигураций 1С для облегчения их дальнейшего обновления 
+* [precommit4onec](https://github.com/bia-technologies/precommit4onec) - Утилита для автоматической обработки исходных файлов конфигурации, внешних отчетов и обработок для платформы 1С:Предприятие при помещении в репозиторий git
 
 ## Дизайн
 
@@ -72,7 +73,6 @@
 Прочее: 899A33  
 Фон: FFFBF0
 ``` 
-
 
 ### Шрифты
 
@@ -106,7 +106,7 @@
 - [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 - [aboutsqlserver](https://aboutsqlserver.com/presentations/)
 
-### SQL links (videos & articles). Блокировки 
+#### SQL links (videos & articles). Блокировки 
 
 - [Что делать, если не хватает штатных индексов 1С (Фрагмент курса 1С Эксперт)](https://youtu.be/DynhFzN9irc)
 - [Execution Plan Basics](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/) - What is an execution plan?
@@ -117,12 +117,12 @@
 
 - [Как посмотреть, какие данные заблокированы в СУБД MS SQL Server](https://infostart.ru/1c/articles/707333/)
 
-### CXPACKET
+#### CXPACKET
 - [CXPACKET в топе по ожиданиям на MSSSQL](http://www.gilev.ru/forum/viewtopic.php?f=18&t=1201&sid=a2f93a47336babab8f21cdf92d9c23fe)
-### Флаги трассировки
+#### Флаги трассировки
  [Описание флагов трассировки](https://github.com/ktaranov/sqlserver-kit/blob/master/SQL%20Server%20Trace%20Flag.md)
 
-## Технологический журнал
+### Технологический журнал
 
 * [Про настройку технологического журнала в 1С](/docs/Технологический%20журнал/readme.md)
 * [Расследование ошибки в конфигураторе](https://kostyanetsky.ru/notes/designer-error-investigation/)
