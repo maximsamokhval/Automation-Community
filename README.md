@@ -60,6 +60,9 @@
 
 - [Приятная глазу цветовая схема 1С 8.х]( https://infostart.ru/1c/articles/122391/ )
 
+<details>
+  <summary>Пример настроек</summary>
+
 ```
 **Brightness contrast colorschemes**:
 Ключевые слова: D24C15
@@ -73,6 +76,9 @@
 Прочее: 899A33  
 Фон: FFFBF0
 ``` 
+
+</details>
+
 
 ### Шрифты
 
