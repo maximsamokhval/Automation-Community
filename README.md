@@ -59,6 +59,8 @@
 ### 1С EDT
 
 - [1C:EDT plugins](https://github.com/marmyshev/edt-plugins)
+- [v8 code style](https://github.com/1C-Company/v8-code-style)
+- [1C:SSL support for 1C:EDT](https://github.com/1C-Company/ssl-support/tree/master/docs)
 
 ## Дизайн
 
