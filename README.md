@@ -16,6 +16,7 @@
       - [Флаги трассировки](#флаги-трассировки)
     - [Технологический журнал](#технологический-журнал)
   - [Статьи (оптимизация)](#статьи-оптимизация)
+  - [Статьи (CI/CD)](#статьи-cicd)
   - [Статьи ( доработки типовых на базе БСП )](#статьи--доработки-типовых-на-базе-бсп-)
   - [Статьи (интеграции)](#статьи-интеграции)
   - [Статьи (настройки)](#статьи-настройки)
@@ -101,6 +102,7 @@
  - [Внешняя компонента RabbitMQ Soft Balance]( https://sbpg.atlassian.net/wiki/spaces/1C2RMQ/overview?homepageId=175800496 )
  - [Внешняя компонента PinkRabbitMQ]( https://github.com/BITERP/PinkRabbitMQ#pinkrabbitmq-library )
  - [Внешняя компонента RegEx]( https://github.com/alexkmbk/RegEx1CAddin)
+ - [VanessaExt - библиотека внешних компонент 1С](https://github.com/lintest/VanessaExt)
 
 ## Тестирование
  
@@ -143,7 +145,8 @@
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
 
-
+## Статьи (CI/CD)
+- [Многопоточный CI-контур для 1С c Packer, Vagrant и Jenkins. Часть 1. Описание системы и обзор инструментария](https://infostart.ru/1c/articles/1198035/)
 
 ## Статьи ( доработки типовых на базе БСП )
 - [Добавление отчетов в типовые конфигурации 1С](https://infostart.ru/1c/articles/1016791/)
@@ -152,7 +155,10 @@
 - [Параметры выбора и связи параметров выбора в панели быстрых настроек отчета СКД](https://expert.chistov.pro/public/1185743/)
 
 ## Статьи (интеграции)
-![icon](/assets/images/link.svg)[Использование AMQP на примере RabbitMQ]( https://kt.team/hr/blog/rabbitmq#rabbit )
+- [Использование AMQP на примере RabbitMQ](https://kt.team/hr/blog/rabbitmq)
+- [APACHE KAFKA VS RABBITMQ В BIG DATA: СХОДСТВА И РАЗЛИЧИЯ САМЫХ ПОПУЛЯРНЫХ БРОКЕРОВ СООБЩЕНИЙ](https://www.bigdataschool.ru/blog/kafka-vs-rabbitmq-big-data.html)
+- [ЧТО ТАКОЕ APACHE PULSAR: НОВАЯ KAFKA ИЛИ УЛУЧШЕННЫЙ RABBITMQ ДЛЯ ПОТОКОВ BIG DATA](https://www.bigdataschool.ru/blog/what-is-pulsar-and-how-it-looks-with-kafka-and-rabbitmq.html)
+- [Проектирование API для микрослужб](https://docs.microsoft.com/ru-ru/azure/architecture/microservices/design/api-design)
 
 ## Статьи (настройки)
 ### Sonar Qube
