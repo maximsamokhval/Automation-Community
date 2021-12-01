@@ -9,6 +9,7 @@
     - [Иконки](#иконки)
   - [Интеграции](#интеграции)
   - [Тестирование](#тестирование)
+  - [Системный дизайн](#системный-дизайн)
   - [.Net и 1С](#net-и-1с)
   - [SQL](#sql)
       - [SQL links (videos & articles). Блокировки](#sql-links-videos--articles-блокировки)
@@ -109,7 +110,10 @@
  
  - [add-tests-for-1C-ERP](https://github.com/Dach-Coin/add-tests-for-1C-ERP) - Примеры сценарных и дымовых тестов на фреймворках V-ADD и xDD для 1C:ERP
  
- 
+ ## Системный дизайн
+
+ - [Crack the System Design Interview](https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview/) 
+ - [Пособие по проектированию систем](https://github.com/voitau/system-design-primer/blob/master/README-ru.md)
 ## .Net и 1С
 
 - [YellowYard_NET](https://github.com/YPermitin/YellowYard.NET)
