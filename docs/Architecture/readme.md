@@ -29,7 +29,8 @@ RFC, ADR шаблоны, ссылки на статьи и полезные ре
 
 #### Ссылки
 
-
+- [ADR Tools](https://github.com/npryce/adr-tools)
 - [Реестр архитектурных решений](https://pragmatic-km.guide/practices/knowledge-registration/registration/architecture.html)
 - [Шаблон ADR](adr/template.md)
 - [Markdown Architectural Decision Records](https://adr.github.io/madr/)
+- [Youtube блог Mark Richards](https://www.youtube.com/channel/UC-Z7T0lAq_xECevIz8E5R5w/featured)
