@@ -1,6 +1,6 @@
 
 - [Установка prometheus как службы](#установка-prometheus-как-службы)
-- [graphana установка](#graphana-установка)
+- [grafana установка](#grafana-установка)
 - [Подключение Prometeus к Grafana](#подключение-prometeus-к-grafana)
 - [Подключение и настройка windows_exporter](#подключение-и-настройка-windows_exporter)
 - [prometheus_1C_exporter](#prometheus_1c_exporter)
@@ -17,7 +17,7 @@
 * Сервис доступен по адресу http://localhost:9090
 
 
-## graphana установка
+## grafana установка
 
 * Скачиваем [graphana](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&platform=windows)
 
@@ -55,11 +55,12 @@
     metrics_path: '/1С_Metrics' 
     static_configs:
     - targets: ['host1:9091', 'host2:9091', 'host3:9091', 'host4:9091']
-
 ```
 
 ### Отредактировать файл prometheus.yml
-* Добавить секцию job_name 
+* Добавить секцию job_name
+
+
 ``` yml 
   - job_name: "windows"
     scrape_interval: 18s
@@ -67,4 +68,3 @@
     - targets: ["localhost:9182"]
 ```
 Перезапустить службу prometheus для перечитывания нового конфигурационного файла
-
