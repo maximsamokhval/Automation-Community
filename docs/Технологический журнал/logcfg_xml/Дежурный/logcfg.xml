@@ -1,44 +1,74 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://v8.1c.ru/v8/tech-log">
-	<log history="24" location="G:\LOGS">
-		<property name="all"/>
-		<event>
-			<eq property="name" value="admin"/>
-		</event>
-		<event>
-			<eq property="name" value="attn"/>
-		</event>
-		<event>
-			<eq property="name" value="proc"/>
-		</event>
-		<event>
-			<eq property="name" value="excp"/>
-		</event>
-		<event>
-			<eq property="name" value="qerr"/>
-		</event>
-		<event>
-			<eq property="Name" value="TDEADLOCK"/>
-		</event>
-		<event>
-			<eq property="name" value="TTIMEOUT"/>
-		</event>
-		<event>
-			<eq property="name" value="SDBL"/>
-			<gt property="duration" value="200000"/>
-		</event>
-		<event>
-			<eq property="name" value="SDBL"/>
-			<eq property="func" value="setRollbackOnly"/>
-		</event>
-		<event>
-			<eq property="name" value="DBMSSQL"/>
-			<gt property="duration" value="200000"/>
-		</event>
-		<event>
-			<eq property="name" value="CALL"/>
-			<gt property="memorypeak" value="100000000"/>
-		</event>
-	</log>
-	<dump create="false" type="0" prntscrn="false"/>
+   <!-- сохраняем исключения //-->
+   <log location="G:\LOGS\excp\" history="24">
+      <event>
+         <eq property="name" value="EXCP" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- ошибки запросов //-->
+   <log location="G:\LOGS\qerr" history="24">
+      <event>
+         <eq property="name" value="qerr" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- сохраняем длительные запросы более 30 сек	//-->
+   <log location="G:\LOGS\query1с" history="24">
+      <event>
+         <eq property="Name" value="SDBL" />
+         <ge property="Durationus" value="30000000" />
+      </event>
+      <event>
+         <eq property="Name" value="DBMSSQL" />
+         <ge property="Durationus" value="30000000" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- Большое потребление памяти //-->
+   <log location="G:\LOGS\memorypeak" history="24">
+      <event>
+         <eq property="name" value="CALL" />
+         <gt property="memorypeak" value="100000000" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- Блокировки //-->
+   <log location="G:\LOGS\TDEADLOCK" history="24">
+      <event>
+         <eq property="Name" value="TDEADLOCK" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- TTIMEOUT //-->
+   <log location="G:\LOGS\TTIMEOUT" history="24">
+      <event>
+         <eq property="name" value="TTIMEOUT" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- setRollbackOnly //-->
+   <log location="G:\LOGS\setRollbackOnly" history="24">
+      <event>
+         <eq property="name" value="SDBL" />
+         <eq property="func" value="setRollbackOnly" />
+      </event>
+      <property name="all" />
+   </log>
+   <!-- admin //-->
+   <log location="G:\LOGS\admin" history="24">
+      <property name="all" />
+      <event>
+         <eq property="name" value="admin" />
+      </event>
+      <event>
+         <eq property="name" value="attn" />
+      </event>
+      <event>
+         <eq property="name" value="proc" />
+      </event>
+      <property name="all" />
+   </log>
+   <dump create="false" type="0" prntscrn="false" />
 </config>
