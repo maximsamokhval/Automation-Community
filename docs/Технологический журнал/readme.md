@@ -19,6 +19,7 @@
 - [Рецепты приготовления технологического журнала](https://infostart.ru/1c/articles/1407627/)
 - [Мониторинг проблем производительности серверов под работой предприятия 1С](https://github.com/Polyplastic/1c-parsing-tech-log)
 - [Методика выявления длительной транзакции, которая привела к значительному расходу tempdb](https://its.1c.ru/db/metod8dev/content/5900/hdoc)
+- Конфигурация для сбора данных из технологического журнала [1c-parsing-tech-log](https://github.com/Polyplastic/1c-parsing-tech-log)
 
 ## Структура файла:
 
