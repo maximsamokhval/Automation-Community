@@ -15,6 +15,7 @@
 
 ## Полезные источники
 
+- [logcfg.xml ИТС ](https://its.1c.eu/db/v839doc#bookmark:adm:TI000000393)
 - [Технологический журнал 1С:Предприятие. Гилев.РУ](http://www.gilev.ru/techlog/)
 - [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/)
 - [Рецепты приготовления технологического журнала](https://infostart.ru/1c/articles/1407627/)
