@@ -22,6 +22,15 @@
 - [Мониторинг проблем производительности серверов под работой предприятия 1С](https://github.com/Polyplastic/1c-parsing-tech-log)
 - [Методика выявления длительной транзакции, которая привела к значительному расходу tempdb](https://its.1c.ru/db/metod8dev/content/5900/hdoc)
 - Конфигурация для сбора данных из технологического журнала [1c-parsing-tech-log](https://github.com/Polyplastic/1c-parsing-tech-log)
+- [YellowViewer](https://github.com/sdf1979/YellowViewer) -  Viewing files of technological logs 1C (WinAPI) 1C technological log files viewer (WinAPI). Works with large files. Minimal memory consumption when indexing data, viewing. Analysis of managed deadlocks, timeouts, waits. Filters by events, period, users, connections, sessions.
+
+Works with large files.
+Minimal memory consumption when indexing data, viewing.
+Analysis of managed deadlocks, timeouts, waits.
+Filters by events, period, users, connections, sessions.
+Sorting events by time from different working servers of the 1C cluster.
+Displaying the working server in the status bar for the tech. log event.
+Visual highlighting of the current event.
 
 ## Структура файла:
 
