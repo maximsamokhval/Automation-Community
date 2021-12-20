@@ -18,6 +18,7 @@
 - [logcfg.xml ИТС ](https://its.1c.eu/db/v839doc#bookmark:adm:TI000000393)
 - [Технологический журнал 1С:Предприятие. Гилев.РУ](http://www.gilev.ru/techlog/)
 - [Описание почти всех событий технологического журнала](https://infostart.ru/1c/articles/1195695/)
+- [Анализ логов технологического журнала](https://homyaks1c.blogspot.com/2015/11/blog-post_3.html)
 - [Рецепты приготовления технологического журнала](https://infostart.ru/1c/articles/1407627/)
 - [Мониторинг проблем производительности серверов под работой предприятия 1С](https://github.com/Polyplastic/1c-parsing-tech-log)
 - [Методика выявления длительной транзакции, которая привела к значительному расходу tempdb](https://its.1c.ru/db/metod8dev/content/5900/hdoc)

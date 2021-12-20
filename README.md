@@ -149,6 +149,7 @@
 * [Расследование ошибки в конфигураторе](https://kostyanetsky.ru/notes/designer-error-investigation/)
 ## Статьи (оптимизация) 
 - [Ускоряем полнотекстовый поиск в динамических списках](https://infostart.ru/1c/articles/1267438/)
+- [Проблема ожидания на блокировках при параллельной работе пользователей в 1С](https://rarus.ru/publications/20200115-ot-ekspertov-1c-rarus-stranichnye-blokirovki-v-ms-sql-server-pri-provedenii-dokumenta-v-dokumente-v-1c-411421/)
 
 ## Статьи (CI/CD)
 - [Многопоточный CI-контур для 1С c Packer, Vagrant и Jenkins. Часть 1. Описание системы и обзор инструментария](https://infostart.ru/1c/articles/1198035/)
