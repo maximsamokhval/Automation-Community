@@ -382,6 +382,8 @@ where col Like 'ABCD%'
   * [improve-sql-server-io-performance](https://blog.waynesheffield.com/wayne/archive/2016/08/improve-sql-server-io-performance/)
   * [KB2949751 - FIX: Access violation occurs when you run CHECKTABLE against the tables with clustered column store index in SQL Server 2014](https://support.microsoft.com/en-us/topic/kb2949751-fix-access-violation-occurs-when-you-run-checktable-against-the-tables-with-clustered-column-store-index-in-sql-server-2014-825d3ade-505c-57b6-2924-0f520686aadc)
   * [Recommendations and Guidelines on configuring disk partitions for SQL Server](https://support.microsoft.com/en-us/topic/recommendations-and-guidelines-on-configuring-disk-partitions-for-sql-server-a25faa94-509f-370b-0975-ee0b26541aa9)
+  * [Диспетчер Хранилища Запросов в SQL Server 2016+ (он же Query Store) infostart.ru](https://infostart.ru/1c/articles/1054413/)
+  * [MSDN. Рекомендации по хранилищу запросов](https://docs.microsoft.com/ru-ru/sql/relational-databases/performance/best-practice-with-the-query-store?view=sql-server-ver15)
 
 
 
