@@ -384,6 +384,7 @@ where col Like 'ABCD%'
   * [Recommendations and Guidelines on configuring disk partitions for SQL Server](https://support.microsoft.com/en-us/topic/recommendations-and-guidelines-on-configuring-disk-partitions-for-sql-server-a25faa94-509f-370b-0975-ee0b26541aa9)
   * [Диспетчер Хранилища Запросов в SQL Server 2016+ (он же Query Store) infostart.ru](https://infostart.ru/1c/articles/1054413/)
   * [MSDN. Рекомендации по хранилищу запросов](https://docs.microsoft.com/ru-ru/sql/relational-databases/performance/best-practice-with-the-query-store?view=sql-server-ver15)
+  * [Служебная база обслуживания и мониторинга](https://github.com/YPermitin/SQLServerTools/tree/master/SQL-Server-Maintenance/Service-Database)
 
 
 
