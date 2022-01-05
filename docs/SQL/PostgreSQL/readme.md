@@ -4,10 +4,15 @@
 ### Ссылки
 
 - [Настройка PostgreSQL 11.5 и 1C: Предприятие 8.3.16 на Windows Server 2008R2](https://infostart.ru/1c/articles/1180438/)
-- [Держи данные в тепле, транзакции в холоде, а VACUUM в голоде. infostart](https://infostart.ru/1c/articles/1191667/)
-- [Особенности использования PostgreSQL. ИТС](https://its.1c.ru/db/metod8dev#browse:13:-1:1981:1987)
-- [Настройки PostgreSQL. ИТС](https://its.1c.ru/db/metod8dev#browse:13:-1:1989:2599:2600:2604)
+- [infostart. Немного о конфигурировании PostgreSQL](https://infostart.ru/1c/articles/325482/)
+- [infostart. Держи данные в тепле, транзакции в холоде, а VACUUM в голоде](https://infostart.ru/1c/articles/1191667/)
+- [ИТС. Особенности использования PostgreSQL](https://its.1c.ru/db/metod8dev#browse:13:-1:1981:1987)
+- [ИТС. Настройки PostgreSQL для работы с 1С:Предприятием. Часть 2](https://its.1c.ru/db/metod8dev#content:5866:hdoc)
+- [ИТС. Настройки PostgreSQL](https://its.1c.ru/db/metod8dev#browse:13:-1:1989:2599:2600:2604)
 - [Держи данные в тепле, транзакции в холоде, а VACUUM в голоде](https://is1c.ru/career/blog/derzhi-dannye-v-teple-tranzaktsii-v-kholode-a-vacuum-v-golode/)
+- [Работа с PostgreSQL настройка и масштабирование](https://postgresql.leopard.in.ua/) - 
+Перед вами справочное пособие по настройке и масштабированию PostgreSQL. В книге исследуются вопросы по настройке производительности PostgreSQL, репликации и кластеризации. Изобилие реальных примеров позволит как начинающим, так и опытным разработчикам быстро разобраться с особенностями масштабирования PostgreSQL для своих приложений.
+
 - [PGTune](https://pgtune.leopard.in.ua/) - PGTune calculate configuration for PostgreSQL based on the maximum performance for a given hardware configuration. It isn't a silver bullet for the optimization settings of PostgreSQL. Many settings depend not only on the hardware configuration, but also on the size of the database, the number of clients and the complexity of queries. An optimal configuration of the database can only be made given all these parameters are taken into account.
 
 
@@ -47,5 +52,55 @@ autovacuum_vacuum_cost_limit = 1
 autovacuum_vacuum_cost_delay = 20ms
 autovacuum_vacuum_scale_factor = 0.1 -> 0.01
 autovacuum_analyze_scale_factor = 0.2 -> 0.005
+
+```
+
+Пример конфиг с сайта [gilev.ru](http://www.gilev.ru/forum/viewtopic.php?f=18&t=979) 
+
+
+```
+
+listen_addresses = '*'         # what IP address(es) to listen on;
+port = 5432            # (change requires restart)
+max_connections = 100         # (change requires restart)
+shared_buffers = 512MB         # min 128kB
+#temp_buffers = 8MB         
+work_mem = 28641kB            
+maintenance_work_mem = 2048MB      # min 1MB
+shared_preload_libraries = '$libdir/plugins/plugin_debugger.dll'      # (change requires restart)
+
+fsync = on            # turns forced synchronization on or off
+synchronous_commit = on      # immediate fsync at commit
+wal_sync_method = fsync      # the default is the first option
+               
+wal_buffers = 16MB         # min 32kB
+   
+effective_cache_size = 7680MB
+log_destination = 'stderr'      # Valid values are combinations of
+logging_collector = on      # Enable capturing of stderr and csvlog
+log_line_prefix = '%t '         # special values:
+               
+autovacuum = on         # Enable autovacuum subprocess?  'on'
+log_autovacuum_min_duration = -1   # -1 disables, 0 logs all actions and
+autovacuum_max_workers = 3      # max number of autovacuum subprocesses
+autovacuum_naptime = 1min      # time between autovacuum runs
+autovacuum_vacuum_threshold = 50   # min number of row updates before
+#autovacuum_analyze_threshold = 50   # min number of row updates before
+autovacuum_vacuum_scale_factor = 0.2   # fraction of table size before vacuum
+autovacuum_analyze_scale_factor = 0.1   # fraction of table size before analyze
+autovacuum_freeze_max_age = 200000000   # maximum XID age before forced vacuum
+autovacuum_vacuum_cost_delay = 20ms   # default vacuum cost delay for
+autovacuum_vacuum_cost_limit = -1   # default vacuum cost limit for
+ datestyle = 'iso, dmy'
+
+lc_messages = 'Russian_Russia'         # locale for system error message
+lc_monetary = 'Russian_Russia'         # locale for monetary formatting
+lc_numeric = 'Russian_Russia'         # locale for number formatting
+lc_time = 'Russian_Russia'            # locale for time formatting
+
+
+default_text_search_config = 'pg_catalog.russian'
+max_locks_per_transaction = 150      # min 10
+escape_string_warning = off
 
 ```
