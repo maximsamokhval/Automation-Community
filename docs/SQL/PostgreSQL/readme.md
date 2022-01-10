@@ -16,7 +16,8 @@
 - [PGTune](https://pgtune.leopard.in.ua/) - PGTune calculate configuration for PostgreSQL based on the maximum performance for a given hardware configuration. It isn't a silver bullet for the optimization settings of PostgreSQL. Many settings depend not only on the hardware configuration, but also on the size of the database, the number of clients and the complexity of queries. An optimal configuration of the database can only be made given all these parameters are taken into account.
 - [How to tune PostgreSQL for memory](https://www.enterprisedb.com/postgres-tutorials/how-tune-postgresql-memory)
 
-
+#### Репозитории
+ - [Скрипты бекапа, восстановления, удаления и обслуживания баз 1С PostgreSQL (Windows)](https://github.com/anklav24/PostgreSQL-Scripts)
 
 ## Настройка postgresql.conf
 
