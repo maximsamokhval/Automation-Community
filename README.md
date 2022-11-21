@@ -127,6 +127,7 @@
 - [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
 - [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 - [aboutsqlserver](https://aboutsqlserver.com/presentations/)
+- [Коллекция готовых SQL запросов для PostgreSQL](https://github.com/maximsamokhval/postgresql-patterns-library)https://github.com/maximsamokhval/postgresql-patterns-library
 
 #### SQL links (videos & articles). Блокировки 
 
