@@ -10,7 +10,15 @@
 - [Настройки MS SQL. Флаги трассировки](chek-list.md)
 
 
-<iframe width="1458" height="593" src="https://www.youtube.com/embed/CXtj0lwA5Ko" title="Как читать план запроса в SQL Server" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+    width="640"
+    height="480"
+    src="https://youtu.be/CXtj0lwA5Ko"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
 
 
 
