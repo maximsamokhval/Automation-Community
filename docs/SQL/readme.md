@@ -10,17 +10,7 @@
 - [Настройки MS SQL. Флаги трассировки](chek-list.md)
 
 
-<iframe
-    width="640"
-    height="480"
-    src="https://youtu.be/CXtj0lwA5Ko"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
-
-
+![](https://youtu.be/CXtj0lwA5Ko)
 
 ## Статьи
 
