@@ -10,7 +10,7 @@
 - [Настройки MS SQL. Флаги трассировки](chek-list.md)
 
 
-![](https://youtu.be/CXtj0lwA5Ko)
+![Как читать план запроса в SQL Server](https://youtu.be/CXtj0lwA5Ko) 
 
 ## Статьи
 
