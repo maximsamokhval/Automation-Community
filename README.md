@@ -43,6 +43,7 @@
 * [HTTP Status Codes](https://github.com/astrizhachuk/HTTPStatusCodes)
 * [Структура хранения таблиц базы данных (УФ)]( https://github.com/alexkmbk/1CDBStorageStructureInfo/releases)
 * [HTTP сервисы по OpenAPI спецификациям](http://tf21.ru/public/1257654/)
+* [Динамическое формирование интерфейса. Программное добавление элементов](https://github.com/KotovDima1C/DFI)
 
 ## Демо
 * [Управляемое приложение (Демо)](https://its.1c.ru/db/metod8dev/content/5028/hdoc)
