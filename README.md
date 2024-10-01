@@ -128,6 +128,7 @@
 - [sqlserver-kit](https://github.com/ktaranov/sqlserver-kit/tree/master) - большой набор информации про ms sql
 - [SQL Server Tools](https://github.com/YPermitin/SQLServerTools)
 - [sp_whoisactive](https://github.com/amachanic/sp_whoisactive/releases)
+- [supratimas](https://www.supratimas.com/) - online просмотр планов запросов
 - [Expensive Key Lookups](https://www.brentozar.com/blitzcache/expensive-key-lookups/)
 - [Автоматизация обслуживания SQL Server](http://sqlcom.ru/scripts/meintenance-from-ola-hallengren/)
 - [aboutsqlserver](https://aboutsqlserver.com/presentations/)
